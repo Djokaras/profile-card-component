@@ -27,35 +27,40 @@ https://github.com/Djokaras/profile-card-component.git Frontend Mentor challenge
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/flexbox-Q9vD-8rPa/](https://www.frontendmentor.io/solutions/flexbox-Q9vD-8rPa/)
+- Live Site URL: [https://djokaras.github.io/profile-card-component/](https://djokaras.github.io/profile-card-component/)
 
 ## My process
 
+Started with mobile first approach. Had some trouble with background image positioning. Flexbox for card layout.
+
 ### Built with
+
+- HTML
+- CSS flexbox
+- Absolute positioning for profile picture
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Learned how to position background image in the body. Had troubles untill I realised that body element had no height.
 
 ```css
-.proud-of-this-css {
-	color: papayawhip;
+body {
+	background-position: right 45vw bottom 60vh, left 55vw top 30vh;
+	background-repeat: no-repeat;
+	background-color: hsl(185, 75%, 39%);
+	height: 100vh;
 }
-```
-
-```js
-const proudOfThisFunc = () => {
-	console.log('🎉');
-};
 ```
 
 ### Continued development
 
+Should work more on HTML as I feel like here is overcomplicated.
+
 ### Useful resources
+
+https://www.youtube.com/watch?v=3T_Jy1CqH9k&t=508s&ab_channel=KevinPowell
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Djordje Stevic](https://www.your-site.com)
