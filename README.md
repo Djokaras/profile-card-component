@@ -23,7 +23,7 @@ https://github.com/Djokaras/profile-card-component.git Frontend Mentor challenge
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
